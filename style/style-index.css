@@ -1,0 +1,110 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background:url("../bg.png") repeat;
+}
+
+header{
+    background-color: #faf9f9;
+    padding: 10px 0;
+}
+
+.header{
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 45px;    
+}
+
+nav a {
+    /* Texto en mayusculas */
+    text-transform: uppercase;
+    color: #5FCCFB;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;    
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.header h1{
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #27bcfc;
+    font-weight: bold;
+    font-size:x-large;
+    padding: 20px;
+}
+
+.corporativo{
+    height: 650px;
+    background-image: url("../Img/corporativa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-top: 80px;
+} 
+
+.corporativo > div > h1{
+    color:#5FCCFB;
+    font-size: 45px;
+    padding: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.corporativo > div > p{
+    color:black;
+    font-size: 30px;
+    width: 400px;
+    padding: 50px;
+}
+
+.service-oficial{
+    margin: 150px;
+}
+
+.service-oficial h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.service-oficial p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-marcas{
+    margin: 20px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+footer{
+    text-align: center;
+    background: #faf9f9;
+    padding: 40px;
+    box-shadow: 0 -3px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.copyright{
+    color: black;
+    font-size: 15px;
+    margin: 20px;
+}
