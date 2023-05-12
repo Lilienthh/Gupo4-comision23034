@@ -21,7 +21,8 @@ VERSION : 1.0
     <link rel="stylesheet" href="style/reset.css">
 
     <link rel="stylesheet" href="style/style-index.css">
-
+    <!-- script para iconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/dc06fe3696.js" crossorigin="anonymous"></script>
     <title>Dr. Frio Soluciones</title>
 </head>
 
@@ -34,7 +35,7 @@ VERSION : 1.0
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul> 
         </nav>
     </header>
@@ -76,7 +77,73 @@ VERSION : 1.0
                     <strong>Otros de nuestros servicios</strong>
                 </a>
         </div>
- 
+
+    <!-- seccion contacto -->
+        <div class="contacto" id="contacto">
+            <div>
+                <h2 id="titulo">Contacto</h2>
+                <ul id="lista-contacto">
+                    <li><strong>Estamos para ayudarte, contactanos</strong></li>
+                    <li><i class="fa-brands fa-whatsapp" style="margin-right: 5px; color:#578fe2;"></i>Escribenos un Whatsapp al:
+                        11 2243-1005</li>
+                    <li><i class="fa-solid fa-phone-flip" 
+                        style="margin-right: 5px; color:#578fe2;"></i>Llamanos al: 11 2243-1005</li>
+                    <li><i class="fa-solid fa-envelope" 
+                        style="margin-right: 5px; color:#578fe2;"></i>Envianos un email a: 
+                        <a href="">drfrio@miemail.com</a></li>
+                </ul>
+            </div>
+
+            <form id="form" class="form" action="" method="">
+                <div class="input-group">
+                    <div class="form-control">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" 
+                            name="nombre" 
+                            id="nombre" 
+                            placeholder="Ingresa tu nombre">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" 
+                            name="telefono" 
+                            id="telefono" 
+                            placeholder="Ingresa tu telefono">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" 
+                            name="email" 
+                            id="email" 
+                            placeholder="example@email.com">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" 
+                            id="mensaje" 
+                            cols="38" 
+                            rows="5" 
+                            placeholder="Ingresa tu mensaje"></textarea>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button class="boton" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -87,8 +154,8 @@ VERSION : 1.0
 
 
 
-
-
+    <!-- script para validacion del formulario -->
+    <script src="../validacion/validacion.js"></script>
 </body>
 
 
