@@ -187,3 +187,147 @@ footer .container{
 	align-items: flex-end;
 	background-color: grey;
 }
+
+
+
+
+/* estilos seccion contacto */
+
+#titulo {
+    font-size: 2.125rem;
+    padding-top: 55px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#lista-contacto {
+    text-align: center;
+    padding: 12px;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+#lista-contacto li {
+    padding: 6px;
+    margin-bottom: 5px
+}
+
+#lista-contacto li a {
+    text-decoration: none;
+}
+
+form {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 50%;
+    margin: 3.125rem auto 3rem auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    color: rgb(94, 94, 94);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    display: block;
+    padding: 17px 25px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: rgba(226, 241, 246, 0.1);
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    color: rgba(82, 82, 82, 0.5);
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(79, 78, 80, 0.5);
+}
+
+/* Validacion */
+
+.form-control input:focus{
+    outline: 0;
+    border-color: #57c4e2;
+}
+
+.form-control.success input{
+    border-color: #2ecc71;
+}
+
+.form-control.error input{
+    border-color: #e74c3c;
+}
+
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form-control.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small{
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form button {
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    height: 47px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 25px;
+    background: linear-gradient(45deg, rgb(158, 160, 161), rgb(201, 201, 196));
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(188, 240, 234));
+}
+
+@media(max-width: 991px) {
+    #form {
+        padding: 50px 30px;
+        width: 80%;
+    }
+
+    input {
+        padding: 15px;
+    }
+}

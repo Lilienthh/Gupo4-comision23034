@@ -46,9 +46,9 @@ VERSION : 1.0
 <section id="hero">
 
     <h1>
-    ¡Contrata nuestros servicios <br>ahora!
+        ¡Somos <span class="color-acento">DR Frio!</span><br>servicios las  24hs
     </h1>
-    <a href=""><button>Contrata ahora</button></a>
+    <a href="https://www.youtube.com/lae2005"><button>Contrata ahora</button></a>
 </section>
 <!--fin contrata nuestros servicios banner-->
 <section id="contrata-ahora">
@@ -131,14 +131,93 @@ VERSION : 1.0
 <!--asistencia telefonica-->
 
 
+
+ <!-- seccion contacto -->
+ <div class="contacto" id="contacto">
+    <div>
+        <h2 id="titulo">Contacto</h2>
+        <ul id="lista-contacto">
+            <li><strong>Estamos para ayudarte, contactanos</strong></li>
+            <li><i class="fa-brands fa-whatsapp" style="margin-right: 5px; color:#578fe2;"></i>Escribenos un Whatsapp al:
+                11 2243-1005</li>
+            <li><i class="fa-solid fa-phone-flip" 
+                style="margin-right: 5px; color:#578fe2;"></i>Llamanos al: 11 2243-1005</li>
+            <li><i class="fa-solid fa-envelope" 
+                style="margin-right: 5px; color:#578fe2;"></i>Envianos un email a: 
+                <a href="">drfrio@miemail.com</a></li>
+        </ul>
+    </div>
+
+    <form id="form" class="form" action="" method="">
+        <div class="input-group">
+            <div class="form-control">
+                <label for="nombre">Nombre</label>
+                <input type="text" 
+                    name="nombre" 
+                    id="nombre" 
+                    placeholder="Ingresa tu nombre">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" 
+                    name="telefono" 
+                    id="telefono" 
+                    placeholder="Ingresa tu telefono">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="example@email.com">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" 
+                    id="mensaje" 
+                    cols="38" 
+                    rows="5" 
+                    placeholder="Ingresa tu mensaje"></textarea>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button class="boton" type="submit">Enviar</button>
+        </div>
+    </form>
+</div>
+</main>
+
+
+
+
+
+<!-- script para validacion del formulario -->
+<script src="../validacion/validacion.js"></script>
+
+
+
 <!--final page footer-->
 <footer>
-<div class="container">
-    <p>&copy; DR. Frio 2023</p>
-</div>
-</footer>
-<!--fin final page footer-->
-
+    <div class="container">
+        <img src="Img/Dr._Frio.png" alt="logo-footer">
+        <p class="copyright">&copy; DR. Frio 2023</p>
+    </div>
+    </footer>
+    <!--fin final page footer-->
+    
 
 </body>
 
