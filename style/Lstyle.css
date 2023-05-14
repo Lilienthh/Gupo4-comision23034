@@ -112,21 +112,35 @@ padding: 100px 12px;
 
 
 
-	background-image: url(
-../images/bn%20(1).jpg);
-	background-image: url(../images/bn2.jpg);
+	
 
 }
 
 .carta:first-child
 {
-background-image: linear-gradient(0deg, rgba(0,0,0,5), rgba(0,0,0,5)),url(images);
+    background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak4.jpg);
+	background-image: -moz-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak4.jpg);
+	background-image: -o-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak4.jpg);
+	background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../images/bak4.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak2.jpg);
+	background-image: -moz-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak2.jpg);
+	background-image: -o-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak2.jpg);
+	background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../images/bak2.jpg);
+
 
 }
 
-.carta:nth-child(2){background-image: linear-gradient(0deg, rgba(0,0,0,5), rgba(0,0,0,5)),url(images);}
+.carta:nth-child(3){
+    background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak1.jpg);
+	background-image: -moz-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak1.jpg);
+	background-image: -o-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak1.jpg);
+	background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../images/bak1.jpg);
 
-.carta:nth-child(3){background-image: linear-gradient(0deg, rgba(0,0,0,5), rgba(0,0,0,5)),url(images);}
+
+}
 
 /* caracteristicas------------------------------------------------------------------------------*/
 
