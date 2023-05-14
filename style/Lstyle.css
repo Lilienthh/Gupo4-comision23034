@@ -1,8 +1,3 @@
-*
-{
-   box-sizing: border-box; 
-}
-
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
@@ -57,23 +52,20 @@ button:hover
 
 #hero
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 90vh;
+	color: white;
+	background-image: -webkit-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak3.jpg);
+	background-image: -moz-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak3.jpg);
+	background-image: -o-linear-gradient(90deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50) 100%), url(../images/bak3.jpg);
+	background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(../images/bak3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 #hero h1{color: white;}
@@ -111,11 +103,18 @@ padding: 100px 12px;
 
 #servicios .carta
 {
-background-position: center center;
-background-size: cover;
-padding: 50px;
-margin: 20px;
-border-radius: 15px;
+	background-position: center center;
+	background-size: cover;
+	padding: 50px;
+	margin: 20px;
+	border-radius: 15px;
+
+
+
+
+	background-image: url(
+../images/bn%20(1).jpg);
+	background-image: url(../images/bn2.jpg);
 
 }
 
@@ -168,9 +167,9 @@ footer p{
 }
 
 footer .container{
-    
-    height: 150px;
-    display: 150px;
-    justify-content: center;
-    align-items: flex-end;
+	height: 150px;
+	display: 150px;
+	justify-content: center;
+	align-items: flex-end;
+	background-color: grey;
 }
