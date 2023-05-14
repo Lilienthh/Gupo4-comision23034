@@ -14,7 +14,7 @@ li{font-size: 1.25em;}
 
 body
 {
-    background-color: rgb(183, 199, 199);
+    
     margin:0;
     font-family: 'roboto', sans-serif;
 }
@@ -45,45 +45,15 @@ button:hover
     margin: auto;
 }
 
-header .logo
-{
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: blue;
-    font-size: 1.45em;
-}
+.color-acento{ color:#4E94AB}
 
-header .container
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
-header nav
-{
-display: flex;
-flex-direction: column;
-text-align: center;
-padding-bottom: 25px;
 
-}
 
-header a
-{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
 
-}
 
-header a:hover{
-    color: #14bbf3;
-    
-}
+
 
 #hero
 {
@@ -99,7 +69,113 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("images/bak1.jpg");
+    ,url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
 }
 
+#hero h1{color: white;}
+
+#contrata-ahora
+{
+
+
+
+}
+
+#contrata-ahora .container
+{
+    text-align: center;
+    padding: 200px 12px;
+
+
+}
+
+#servicios
+{
+    background-color: rgb(30,30,30,);
+    color: white;
+    text-align: center;
+}
+
+#servicios .container
+{
+padding: 100px 12px;
+
+
+}
+#servicios h2
+{margin-top: 0; font-size: 3.2em;}
+
+#servicios p
+{
+    display: nne;
+}
+
+#servicios .carta
+{
+background-position: center center;
+background-size: cover;
+padding: 50px;
+margin: 20px;
+border-radius: 15px;
+
+}
+
+.carta:first-child
+{
+background-image: linear-gradient(0deg, rgba(0,0,0,5), rgba(0,0,0,5)),url(images);
+
+}
+
+.carta:nth-child(2){background-image: linear-gradient(0deg, rgba(0,0,0,5), rgba(0,0,0,5)),url(images);}
+
+.carta:nth-child(3){background-image: linear-gradient(0deg, rgba(0,0,0,5), rgba(0,0,0,5)),url(images);}
+
+/* caracteristicas------------------------------------------------------------------------------*/
+
+#caracteristicas
+{
+background-color: white;
+
+}
+
+#caracteristicas .container{ text-align: center; padding: 250px 12px;}
+
+#caracteristicas li{ margin: 16px 0px; font-weight: bold;}
+
+#ventas
+{
+    display:flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    background-color: rgb(30,30,30,); 
+    color: white;
+    height: 80vh; 
+
+}
+
+#final h2{font-size: 9vw;}
+#final button{font-size: 5vw;}
+
+
+footer{background-color: rgb(230, 230, 230);}
+
+footer p{
+    margin: 0; 
+    padding: 12px;
+    color: rgb(100, 100, 100);
+
+}
+
+footer .container{
+    
+    height: 150px;
+    display: 150px;
+    justify-content: center;
+    align-items: flex-end;
+}

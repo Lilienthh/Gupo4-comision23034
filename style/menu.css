@@ -4,11 +4,7 @@
 *   comision 23034 Team 4 año 2023
 */
 
-body {
-margin: 0;
-font-family: sans-serif;
 
-}
 
 header{
 width: 100%;
@@ -67,7 +63,8 @@ main{
     padding: 20px ;
 }
 
-@media (max-width:768px) {
+@media (max-width:768px) 
+{
 header label{
 display: block;}
     .menu
@@ -92,4 +89,6 @@ display: block;}
 
     }
 }
+
+
 
